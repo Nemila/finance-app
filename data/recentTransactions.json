@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "type": "bill",
+    "title": "Payement de facture",
+    "amount": "25 000 XOF"
+  },
+  {
+    "id": 1,
+    "type": "money",
+    "title": "Depot d'argent",
+    "amount": "14 000 XOF"
+  },
+  {
+    "id": 2,
+    "type": "credit",
+    "title": "Achat de credit",
+    "amount": "2 500 XOF"
+  },
+  {
+    "id": 3,
+    "type": "money",
+    "title": "Depot d'argent",
+    "amount": "16 000 XOF"
+  }
+]

@@ -117,3 +117,28 @@ export const CurrencyDollar = (props: SvgProps) => {
     </Svg>
   );
 };
+
+export const Plus = (props: SvgProps) => {
+  return (
+    <Svg fill="currentColor" className="w-6 h-6" viewBox="0 0 24 24" {...props}>
+      <Path
+        fillRule="evenodd"
+        d="M12 3.75a.75.75 0 0 1 .75.75v6.75h6.75a.75.75 0 0 1 0 1.5h-6.75v6.75a.75.75 0 0 1-1.5 0v-6.75H4.5a.75.75 0 0 1 0-1.5h6.75V4.5a.75.75 0 0 1 .75-.75z"
+        clipRule="evenodd"
+      />
+    </Svg>
+  );
+};
+
+export const Eye = (props: SvgProps) => {
+  return (
+    <Svg fill="currentColor" className="w-6 h-6" viewBox="0 0 24 24" {...props}>
+      <Path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+      <Path
+        fillRule="evenodd"
+        d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113zM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0z"
+        clipRule="evenodd"
+      />
+    </Svg>
+  );
+};
